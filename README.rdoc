@@ -1,4 +1,4 @@
-## NTouch
+== NTouch
 For the final project at Dev Bootcamp, I along with three other peers selected a project that would use background jobs and various APIs to help users stay in touch with a very small group of people. The app, called NTouch, was planned, wireframed, coded, tested, and deployed in eight days. With a very simple user interface and minimal input from the user, NTouch acts as a "set it and forget it" service.
 
 The app has the user sign in via Facebook, and makes use of Facebook Developer tools to scrape friend names, birthdays, and other relevant information into an available custom search. The user can select up to 10 friends and create one time or recurring reminders via text and/or email to stay in touch with selected friends. 
@@ -7,11 +7,11 @@ NTouch is written in Ruby and uses the following technologies: Rails, Redis, Omn
 
 You can visit our site at:
 
-[NTouch](http://ntouchdbc.herokuapp.com/)
+http://ntouchdbc.herokuapp.com/
 
 At present, we have disabled background workers so you will not receive a notification if you schedule a reminder.
 
-## Layout Challenge
+== Layout Challenge
 One challenge that presented itself was that the group decided not to focus on front-end design until day 6. We attempted to port over our app into bootstrap to give it a much better design, but porting over an app that we were still working on proved more difficult then we'd imagine. We did not have enough time to finish the transfer.
 
 The app currently hosted on heroku has full functionality but no design. To view the the bootstrap version, switch to the layout branch, run rails s, and visit localhost:3000. Keep in mind that this version currently does not have full functionality.
